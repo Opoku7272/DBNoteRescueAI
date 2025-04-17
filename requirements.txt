@@ -1,0 +1,2 @@
+# Requiere Python ≥ 3.7
+google-generativeai==0.8.4
