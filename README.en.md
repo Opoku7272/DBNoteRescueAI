@@ -187,7 +187,7 @@ CREATE TABLE notes (
 DBNoteRescueAI works well with databases from various note-taking applications, including:
 
 - Simple note-taking apps that use SQLite storage
-- Many Android-based note applications
+- Many Android note‑taking apps (I personally used [Bloc de Notas](https://play.google.com/store/apps/details?id=jikansoftware.com.blocdenotas), and this script was made specifically for that app—so if you have your notes in that application, you can use this script in its default configuration without any problems).
 - Exported databases from certain note management systems
 
 If your database has a different structure, use the table and column parameters to customize the migration process.
@@ -308,15 +308,15 @@ If files aren't being generated:
 
 This project is licensed under the [GNU General Public License v3.0](LICENSE).
 
-## 🤝 Contributing
+## 🤝 Contributions
 
-Contributions are welcome! If you encounter bugs or have suggestions for improvements:
+You’re welcome to contribute freely by reporting bugs or making suggestions! To do so, you can:
 
-1. Open an issue describing the problem or enhancement
-2. Fork the repository and create a new branch for your feature
-3. Submit a pull request with a clear description of the changes
+1. Open an issue describing the problem or enhancement.  
+2. Fork the repository and create a new branch for your feature.  
+3. Submit a pull request with a clear description of the changes.
 
-For major changes, please open an issue first to discuss what you would like to change.
+For major changes, open an issue first to discuss what you’d like to change.
 
 ## 🙏 Acknowledgements
 
