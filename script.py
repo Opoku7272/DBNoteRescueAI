@@ -152,9 +152,9 @@ def configure_api(api_key):
     """
     try:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-2.0-flash-lite')
         print("Gemini model configured successfully.")
-        return model
+        return model    
     except Exception as e:
         print(f"Error configuring Gemini API: {e}")
         print("Ensure the API key is correct and you have network access.")
